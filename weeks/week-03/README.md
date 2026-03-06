@@ -16,6 +16,9 @@ api/profiles/ (port 8265)
 
 Тест
 ![](https://github.com/Darkness1853/Pictures/blob/main/p2/image.png)
+
+Вопросы
+[Файл](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-03/questions.md)
 ---
 
 # Единая точка входа (API Gateway)
