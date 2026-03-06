@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       WEEK: "01"
-      GROUP: "431"
-      STUDENT_ID: "s01"
+      GROUP: "433"
+      STUDENT_ID: "s17"
       IMAGE_NAME: "В этом месте вам необходимо"
     steps:
       - uses: actions/checkout@v4

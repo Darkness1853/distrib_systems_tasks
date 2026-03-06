@@ -1,0 +1,25 @@
+services:
+  profiles-svc-s17:
+    build:
+      context: .
+      dockerfile: Dockerfile.profiles
+    ports:
+      - "8265:8265"
+    volumes:
+      - ./:/app
+
+  other-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.other
+    ports:
+      - "8161:8001"
+    volumes:
+      - ./:/app
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./infra/nginx.conf:/etc/nginx/nginx.conf
