@@ -7,13 +7,13 @@ import time
 
 def next_state(state: str, event: str) -> str:
     transitions = {
-        ('NEW', 'TICKET_PAY_OK'): 'PAID',
-        ('NEW', 'TICKET_PAY_FAIL'): 'CANCELLED',
+        ('NEW', 'PAY_OK'): 'PAID',
+        ('NEW', 'PAY_FAIL'): 'CANCELLED',
         ('NEW', 'CANCEL'): 'CANCELLED',
         
         ('PAID', 'COMPLETE'): 'DONE',
         ('PAID', 'CANCEL'): 'CANCELLED',
-        ('PAID', 'TICKET_PAY_FAIL'): 'CANCELLED',
+        ('PAID', 'PAY_FAIL'): 'CANCELLED',
         
         ('DONE', 'CANCEL'): 'CANCELLED',
         
@@ -25,7 +25,7 @@ def process_step(state: str, retries: int = 2) -> str:
     success = random.choice([True, False])
     
     if success:
-        return next_state(state, 'TICKET_PAY_OK')
+        return next_state(state, 'PAY_OK')
     
     print(f"Ошибка оплаты")
     state = next_state(state, 'CANCEL')

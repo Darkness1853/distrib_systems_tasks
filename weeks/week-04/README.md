@@ -7,6 +7,20 @@
 | **Группа** | ИКС-433 |
 | **Student ID** | s17 |
 
+# Задание
+
+[saga.md](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-04/saga.md)
+
+Случай, когда билет куплен
+![](https://github.com/Darkness1853/Pictures/blob/main/p2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-06%20165854.png)
+
+Случай, когда конпенсация произошла
+![](https://github.com/Darkness1853/Pictures/blob/main/p2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-06%20165912.png)
+Случай, когда конпенсации не удались
+![](https://github.com/Darkness1853/Pictures/blob/main/p2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-06%20165900.png)
+Тест
+![](https://github.com/Darkness1853/Pictures/blob/main/p2/image.png)
+
 # Саги и распределенные транзакции
 
 ## Задача
