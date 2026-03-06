@@ -8,7 +8,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     env:
-      WEEK: "01"
+      WEEK: "03"
       GROUP: "433"
       STUDENT_ID: "s17"
       IMAGE_NAME: "В этом месте вам необходимо"
