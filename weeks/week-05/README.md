@@ -8,6 +8,19 @@
 | **Student ID** | s17 |
 # Гибкий API с GraphQL
 
+---
+# Задание
+
+<picture>
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p3/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-15%20021312.png?raw=true">
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p3/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-15%20021330.png?raw=true">
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p3/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-15%20021333.png?raw=true">
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p3/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-15%20021401.png?raw=true">
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p3/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-15%20023302.png?raw=true">   
+</picture>
+
+---
+
 ## Задача
 REST хорош, но иногда слишком "болтлив". Что если клиенту нужны только имена пользователей, а сервер отдает гигантские JSON с их адресами, историями заказов и котами?
 На этой неделе мы попробуем **GraphQL** — язык запросов, где клиент сам говорит, какие данные ему нужны.
