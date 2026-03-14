@@ -1,1 +1,23 @@
 # В этом месте вам необходимо: опишите GraphQL схему
+
+type Order {
+    id: ID!
+    name: String!
+    price: Float!
+    status: String!
+    priority: Int!
+}
+
+type Query {
+    orders: [Order!]!
+    order(id: ID!): Order
+}
+
+type Mutation {
+    createOrder(
+        name: String!,
+        price: Float!,
+        status: String!,
+        priority: Int!
+    ): Order!
+}
