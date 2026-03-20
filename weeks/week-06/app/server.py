@@ -8,7 +8,7 @@ photos = []
 
 @strawberry.type
 class Photo:
-    id: str
+    id: strawberry.ID
     title: str
     url: str
 
@@ -19,7 +19,7 @@ class Query:
         return photos
     
     @strawberry.field
-    def photo(self, id: str) -> Optional[Photo]:
+    def photo(self, id: strawberry.ID) -> Optional[Photo]:
         for photo in photos:
             if photo.id == id:
                 return photo
@@ -30,7 +30,7 @@ class Mutation:
     @strawberry.mutation
     def create_photo(self, title: str, url: str) -> Photo:
         new_photo = Photo(
-            id=str(len(photos) + 1),
+            id=strawberry.ID(len(photos) + 1),
             title=title,
             url=url
         )

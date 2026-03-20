@@ -19,7 +19,7 @@ def send_request(url: str, query: str, variables: dict = None):
         response = requests.post(url, json=payload)
         result = response.json()
         if "errors" in result:
-            print("Ошибки")
+            print("Ошибки", result["errors"])
         else:
             print("Данные:", result.get("data"))
     except Exception as error:
@@ -49,7 +49,7 @@ query {
 """
 
 get_one = """
-query get_photo($id: String!) {
+query get_photo($id: ID!) {
     photo(id: $id) {
         id
         title

@@ -6,6 +6,33 @@
 |------|----------|
 | **Группа** | ИКС-433 |
 | **Student ID** | s17 |
+
+---
+
+# Задание
+
+Успешный запуск [сервера](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-06/app/server.py)
+<picture>
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p4/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-21%20000048.png?raw=true">
+</picture>
+
+Успеный запуск [клиента](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-06/app/client.py)
+<picture>
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p4/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-20%20235932.png">
+</picture>
+
+Успешное выполнение http://localhost:8135/graphql
+<picture>
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p4/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-21%20000126.png?raw=true">
+</picture>
+
+Проверка выполнения теста
+<picture>
+<img src="https://github.com/Darkness1853/Pictures/blob/main/p4/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-21%20000238.png?raw=true">   
+</picture>
+
+---
+
 # Пишем GraphQL-клиент
 
 ## Задача
