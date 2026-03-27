@@ -10,11 +10,21 @@
 
 # Задание
 Тестирование
+
 <picture>
 <img src="https://github.com/Darkness1853/Pictures/blob/main/WEEK-07/image.png?raw=true">
-</picture
+</picture>
 
+[*service.proto*](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-07/proto/service.proto)
 
+[*Код сервера*](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-07/starter/service.py)
+
+*Сгенерированные файлы*:
+
+[service_pb2.py](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-07/starter/service_pb2.py)
+[service_pb2_grpc.py](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-07/starter/service_pb2_grpc.py)
+
+[*Ответы на вопросы*](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-07/questions.md)
 
 ## Задача
 REST API всем хорош, но иногда нам нужна максимальная производительность или строгая типизация контрактов. Здесь на сцену выходит **gRPC** — фреймворк от Google для удаленного вызова процедур.
