@@ -9,8 +9,15 @@
 
 # Задание
 
+1. Код [Signaling сервера](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-09/starter/signaling.py).
+2. HTML/JS [файл клиента](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-09/client/index.html).
+3. Ответы на [вопросы](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-09/questions.md).
+
 ![img](https://github.com/Darkness1853/Pictures/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-04-04%20224537.png?raw=true)
 
+<img width="1061" height="650" alt="Снимок экрана 2026-04-06 111705" src="https://github.com/user-attachments/assets/61d89900-3d42-46e5-b772-91753dc72aaf" />
+
+<img width="1022" height="624" alt="Снимок экрана 2026-04-06 111709" src="https://github.com/user-attachments/assets/72d80df7-6912-4d8d-9d3a-c3374e3625df" />
 
 # WebRTC и P2P коммуникация
 
