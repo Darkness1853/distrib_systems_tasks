@@ -10,6 +10,11 @@
 
 # Задание
 
+<img width="742" height="50" alt="Снимок экрана 2026-04-13 063644" src="https://github.com/user-attachments/assets/7e19a56f-be28-4942-9e5d-f531ba33ed44" />
+
+<img width="349" height="308" alt="Снимок экрана 2026-04-13 063806" src="https://github.com/user-attachments/assets/bdd97127-9479-477c-a834-f4cdb5fe3057" />
+
+<img width="650" height="126" alt="Снимок экрана 2026-04-13 063939" src="https://github.com/user-attachments/assets/bda250bb-5cf4-43c2-9177-d9599642ade0" />
 
 ## Задача
 "У меня локально всё работает" — фраза, которую ненавидит любой сисадмин. Чтобы код работал везде одинаково, мы упаковываем его в контейнеры.
