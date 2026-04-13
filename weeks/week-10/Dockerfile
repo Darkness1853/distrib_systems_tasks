@@ -1,13 +1,12 @@
-# В этом файле вам необходимо использовать multi-stage и заменить порт и путь к приложению по своему варианту
-FROM python:3.11-slim AS builder
+FROM python:3.11 AS builder
 WORKDIR /app
-COPY requirements.txt .
-RUN pip install --prefix=/install -r requirements.txt
+COPY starter/requirements.txt .
+RUN pip install --no-cache-dir fastapi uvicorn
 
-FROM python:3.11-slim
+FROM python:3.11
 WORKDIR /app
-COPY --from=builder /install /usr/local
-COPY . .
-# В этом месте вам необходимо заменить на порт из вашего варианта
-EXPOSE 8000
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY starter/ .
+
+EXPOSE 8229
+CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8229"]
