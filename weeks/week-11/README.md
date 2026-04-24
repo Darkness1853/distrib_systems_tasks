@@ -6,6 +6,13 @@
 |------|----------|
 | **Группа** | ИКС-433 |
 | **Student ID** | s17 |
+
+## Задание
+
+![](https://github.com/user-attachments/assets/ca684e55-6d49-4e7e-bffe-c511f4285391)
+
+![](https://github.com/user-attachments/assets/704dba2c-6477-4383-904f-648beb74f9d9)
+
 # Оркестрация для бедных (Docker Compose)
 
 ## Задача

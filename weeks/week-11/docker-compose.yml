@@ -1,22 +1,36 @@
 version: '3.9'
+
 services:
-  app:
-    # Замените на имя образа
-    image: primer/obraz
+  tasks-svc-s17:
+    build: ./app
+    ports:
+      - "8196:8196"
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8196/health"]
       interval: 10s
       timeout: 3s
       retries: 3
     networks:
-      - app-net
-  gateway:
-    # Замените на имя образа
-    image: primer/obraz
+      - app-network
     depends_on:
-      - app
+      - postgres
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_PASSWORD: secret
     networks:
-      - app-net
+      - app-network
+
+  gateway:
+    build: ./gateway
+    ports:
+      - "8080:80"
+    depends_on:
+      - tasks-svc-s17
+    networks:
+      - app-network
+
 networks:
-  app-net:
+  app-network:
     driver: bridge
