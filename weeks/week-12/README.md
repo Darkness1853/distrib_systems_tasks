@@ -6,6 +6,15 @@
 |------|----------|
 | **Группа** | ИКС-433 |
 | **Student ID** | s17 |
+
+# Задание
+
+![alt text](img/image.png)
+
+![alt text](img/image1.png)
+![alt text](img/image2.png)
+![alt text](img/image3.png)
+
 # Введение в Kubernetes
 
 ## Задача
