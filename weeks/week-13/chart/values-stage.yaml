@@ -1,6 +1,17 @@
 replicaCount: 2
+
 image:
   repository: primer/obraz
   tag: "stage"
+
 service:
-  port: 8000
+  name: profiles-svc-s17
+  port: 8265
+
+resources:
+  requests:
+    memory: "96Mi"
+    cpu: "250m"
+  limits:
+    memory: "192Mi"
+    cpu: "500m"

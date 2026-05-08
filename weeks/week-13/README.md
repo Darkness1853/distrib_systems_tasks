@@ -6,6 +6,21 @@
 |------|----------|
 | **Группа** | ИКС-433 |
 | **Student ID** | s17 |
+
+# Задание
+
+<img src="weeks/week-13/img/img1.png" align="center">
+
+<img src="weeks/week-13/img/img2.png" align="center">
+
+<img src="weeks/week-13/img/img3.png" align="center">
+
+```bash
+helm template my-release ./chart -f chart/values-dev.yaml
+```
+[Папка с чартом.](chart)
+
+
 # Пакетный менеджер Helm
 
 ## Задача

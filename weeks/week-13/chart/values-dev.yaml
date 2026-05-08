@@ -1,6 +1,17 @@
 replicaCount: 1
+
 image:
   repository: primer/obraz
   tag: "dev"
+
 service:
-  port: 8000
+  name: profiles-svc-s17   
+  port: 8265
+
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "125m"
+  limits:
+    memory: "128Mi"
+    cpu: "250m"

@@ -11,8 +11,8 @@
 ```
 make test WEEK=<номер недели> #проверка одного теста
 export WEEK=<номер недели> & make test #проверка одного теста 
-python tools/check_tests.py # Проверка всех тестов
-python tools/show_my_variant.py # Показ задания <НОМЕР_НЕДЕЛИ>
+python3 tools/check_tests.py # Проверка всех тестов
+python3 tools/show_my_variant.py # Показ задания <НОМЕР_НЕДЕЛИ>
 
 ```
 
