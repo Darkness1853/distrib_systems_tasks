@@ -11,7 +11,7 @@ jobs:
       WEEK: "01"
       GROUP: "433"
       STUDENT_ID: "s17"
-      IMAGE_NAME: "В этом месте вам необходимо"
+      IMAGE_NAME: "users-s17"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
