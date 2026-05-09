@@ -9,11 +9,11 @@
 
 # Задание
 
-<img src="weeks/week-13/img/img1.png" align="center">
+![](weeks/week-13/img/img1.png)
 
-<img src="weeks/week-13/img/img2.png" align="center">
+![](weeks/week-13/img/img2.png)
 
-<img src="weeks/week-13/img/img3.png" align="center">
+![](weeks/week-13/img/img3.png)
 
 ```bash
 helm template my-release ./chart -f chart/values-dev.yaml
