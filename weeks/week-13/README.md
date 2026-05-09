@@ -9,11 +9,11 @@
 
 # Задание
 
-![](weeks/week-13/img/img1.png)
+![Image 1](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-13/img/img1.png?raw=true)
 
-![](weeks/week-13/img/img2.png)
+![Image 2](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-13/img/img2.png?raw=true)
 
-![](weeks/week-13/img/img3.png)
+![Image 3](https://github.com/Darkness1853/distrib_systems_tasks/blob/master/weeks/week-13/img/img3.png?raw=true)
 
 ```bash
 helm template my-release ./chart -f chart/values-dev.yaml
