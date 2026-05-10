@@ -10,9 +10,9 @@
 # Задание
 
 
-![alt text](image1.png)
+![alt text](img/image1.png)
 
-![alt text](image2.png)
+![alt text](img/image2.png)
 # Анализ производительности
 
 ## Задача
