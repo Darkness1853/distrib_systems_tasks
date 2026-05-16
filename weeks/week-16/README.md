@@ -6,6 +6,11 @@
 |------|----------|
 | **Группа** | ИКС-433 |
 | **Student ID** | s17 |
+
+# Задание 
+
+![alt text](img/image.png)
+![alt text](img/image-1.png)
 # Безопасность (Security Audit)
 
 ## Задача
